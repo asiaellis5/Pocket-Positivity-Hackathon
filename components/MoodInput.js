@@ -17,7 +17,7 @@ const MoodInput = (props) => {
   const [moodComment, setMoodComment] = useState("No comment this time");
   const [buttonColour, setButtonColour] = useState("#2b396b");
   const [buttonWasPressed, setButtonWasPressed] = useState(false);
-  console.log("props", props);
+  // console.log("props", props);
 
   const postMoodInput = () => {
     // axios
@@ -31,7 +31,7 @@ const MoodInput = (props) => {
     //   });
     let nextStep = mood >= 5 ? "happy" : "unhappy";
     triggerNextStep(buttonWasPressed, nextStep);
-    console.log("success", "anxious-someone-to-talk-to");
+    // console.log("success", "anxious-someone-to-talk-to");
   };
 
   return (

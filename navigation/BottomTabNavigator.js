@@ -4,7 +4,7 @@ import * as React from "react";
 import TabBarIcon from "../components/TabBarIcon";
 import HomeScreen from "../screens/HomeScreen";
 import ProfileScreen from "../screens/ProfileScreen";
-import LinksScreen from "../screens/LinksScreen";
+import LinksScreen from "../screens/ChatBot";
 import MantrasScreen from "../screens/MantrasScreen";
 import NotificationsTest from "../screens/NotificationsTest";
 import MoodChart from "../screens/MoodChart";
